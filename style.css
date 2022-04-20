@@ -15,6 +15,15 @@ h1 {
 .tabla {
     border-color: #fd7702;
 }
+.tabla {
+    background-color: #002347;
+}
+.explicacio {
+    color: #002347;
+}
+.puntos {
+    background-color: #036;
+}
 
 
 
