@@ -6,3 +6,26 @@
 h1 {
     font-family: 'Square Peg', cursive;
 }
+.cabecera {
+ background-color: #036;
+}
+.textoCabecera , .tabla , .txt{
+    color: #fd7702;
+}
+.tabla {
+    border-color: #fd7702;
+}
+
+
+
+
+
+
+/* Color Palette
+#fff
+#002347
+#036
+#003f7d
+#ff8e00
+#fd7702
+#ff5003 */

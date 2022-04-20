@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="PHP, language, code, La Liga, Laravel, Composer, MVC, Sprint4, ITacademy, BarcelonActiva">
-	<link rel="shortcut icon" href="img/pelotaGraduacio.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/pelotadiseño2.png" type="image/x-icon">
     <meta name="description" content="Ejercicio que implementa una liga de futbol a través de Laravel">
     <meta name="author" content="JcSomeCodes , JcSomeShots ">
 	<link rel="stylesheet" href="style.css">
@@ -17,25 +17,59 @@
     <title>Vista principal</title>
 </head>
 <body>
-    <header class="flex flex-col justify-center  bg-slate-500">
+    <header class=" cabecera flex flex-col justify-center ">
 
         <div class="titulo mx-auto my-8 flex items-center">
-            <h1 class="text-6xl text-green-400  -skew-y-6">The Avenging League</h1>
+            <h1 class="text-6xl textoCabecera  -skew-y-6">La Liga Vengadora</h1>
             <figure>
-                <img src="img/pelota.png" alt="pelotaDiseny" class="w-10  animate-pulse ml-5">
+                <img src="img/pelotaNaranja.png" alt="pelotaDiseny" class="w-12 animate-pulse ml-5 ">
             </figure>
         </div>
         <div class="line mx-3 border-b opacity-25 border-black"></div>
 
 
-        <nav class="flex-none mx-12 my-5">
+        <nav class="flex-none mx-16 my-5">
             <ul >
-                <li class="inline"><a class="mr-6 text-green-400 text-lg" href="#">Resultados</a></li>
-                <li class="inline"><a class="mr-6 text-green-400 text-lg" href="#">Calendario</a></li>
-                <li class="inline"><a class="text-green-400 text-lg" href="#">Clasificación</a></li>
-                <li class="float-right	text-green-400"><a href="#">Nuevo Equipo</a></li>
+                <li class="inline"><a class="mr-6 textoCabecera text-lg" href="#">Resultados</a></li>
+                <li class="inline"><a class="mr-6 textoCabecera text-lg" href="#">Calendario</a></li>
+                <li class="inline"><a class="textoCabecera text-lg" href="#">Clasificación</a></li>
+                <li class="float-right	textoCabecera"><a href="#">Nuevo Equipo</a></li>
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section class="laTabla">
+            <div class="cabeceraTabla flex justify-center items-center">
+                <table class="tabla flex flex-1 border-4  mx-auto text-slate-50 justify-center mt-9 mx-10 bg-black min-w-min max-w-5xl text-xs">
+                    <tr class=" p-2 flex flex-1 justify-center items-center">
+                        <th class="txt py-3 pr-6 font-base w-3/5 pl-3 ">Equipo</th>
+                        <th class="txt py-3 pr-6 font-base pl-3 ">PT</th>
+                        <th class="txt py-3 pr-6 font-base">PJ</th>
+                        <th class="txt py-3 pr-6 font-base ">PG</th>
+                        <th class="txt py-3 pr-6 font-base">PE</th>
+                        <th class="txt py-3 pr-6 font-base">PP</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="explicacio flex justify-center">
+                <p class="text-xs mr-3">PT = PUNTOS</p>
+                <p class="text-xs mr-3">PJ = Partidos jugados</p>
+                <p class="text-xs mr-3">PG = Partidos ganados</p>
+                <p class="text-xs mr-3">PE = Partidos empatados</p>
+                <p class="text-xs "> PP = Partidos perdidos</p>
+            </div>
+        </section>
+
+    </main>
 </body>
 </html>
